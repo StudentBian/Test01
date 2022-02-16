@@ -24,4 +24,10 @@ public class AUsb implements InvocationHandler {
         }
         return res;
     }
+    /*
+    新增加的方法
+     */
+    public int sum(int num ){
+        return 10;
+    }
 }
