@@ -15,5 +15,9 @@ public class MainTest {
         Float price = sellUsb.sell(4);
         System.out.println("通过动态代理卖出的价格"+price);
 
+        AUsb usb = new AUsb(2);
+
+        usb.sum(2);
+
     }
 }
